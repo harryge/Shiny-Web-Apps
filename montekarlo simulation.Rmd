@@ -1,0 +1,13 @@
+---
+title: "Montecarlo Simulation"
+author: "HK_145054"
+date: "2022-07-27"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+Montecarlo methods refer to class of algorithms which which use randomness to give an estimate.
+$$\alpha=\int_{0}^{1}f(x)dx$$
+$$\hat{\alpha_n}=\frac{1}{n}\sum_{i=1}^{n}f(u_i)$$
