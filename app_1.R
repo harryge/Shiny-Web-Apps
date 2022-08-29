@@ -30,7 +30,7 @@ ui <- fluidPage(
     mainPanel(
       
       # Output: Histogram ----
-      plotOutput(outputId = "barPlot")
+      plotOutput(outputId = "distPlot")
       
     )
   )
